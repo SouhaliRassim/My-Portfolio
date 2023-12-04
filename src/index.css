@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'manga'; /* Choose a custom name for your font */
+  src: url('./fonts/mangat.ttf') format('truetype');
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
