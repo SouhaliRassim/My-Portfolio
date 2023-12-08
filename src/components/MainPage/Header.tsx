@@ -15,7 +15,7 @@ import { FaArrowCircleDown } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div id='header-section' className='relative w-screen h-screen bg-black  overflow-x-hidden'>
+    <div id='header-section' className='relative w-screen h-screen  bg-black  overflow-x-hidden'>
       <div className='absolute inset-0 z-0'>
         <video
           className='w-full h-full object-cover '
@@ -56,10 +56,10 @@ const Header = () => {
                   </button>
 
 <div className=' flex flex-row justify-center items-center w-screen gap-6 lg:hidden xs:visible '>
-                  <button className='flex flex-col items-center gap-1 '><FaGithub size={35} />GitHub</button>
-                  <button className='flex flex-col items-center gap-1'><FaLinkedin size={35} />Linkedin</button>
+<a href="https://github.com/SouhaliRassim"><button className='flex flex-col items-center gap-1 '><FaGithub size={35} />GitHub</button></a>
+<a href="https://www.linkedin.com/in/rassim-souhali-635558227/"><button className='flex flex-col items-center gap-1'><FaLinkedin size={35} />Linkedin</button></a> 
                   <button className='flex flex-col items-center gap-1'><MdEmail size={35} />Email</button>
-                  <button className='flex flex-col items-center gap-1'><FaCloudDownloadAlt size={35} />CV</button>
+<a href="https://www.scribd.com/document/690808943/Rassim-CV"><button className='flex flex-col items-center gap-1'><FaCloudDownloadAlt size={35} />CV</button></a>
                  </div> 
       
       </div>

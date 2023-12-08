@@ -10,13 +10,13 @@ const NavBar = () => {
                 
                       <div className='flex gap-2'>
                         <img src={msheep} alt="" className='h-7' />
-                        <h3 className='font-semibold text-[#75D5EB]'>RASSIM</h3>
+                        <h3 className='font-semibold text-[#75D5EB] text-lg'>RASSIM</h3>
                       </div> 
                 <div className='flex gap-6'>
                 <Link activeClass="active" to="header-section" spy={true} smooth={true} offset={50} duration={500} ><button>Home</button></Link>
                 <Link activeClass="active" to="about-section" spy={true} smooth={true} offset={50} duration={500} ><button>About</button></Link>
                 <Link activeClass="active" to="project-section" spy={true} smooth={true} offset={50} duration={500} ><button>Projects</button></Link>
-                <button>Contact</button> 
+                <Link activeClass="active" to="socials-section" spy={true} smooth={true} offset={50} duration={500} ><button>Contact</button></Link>
                 </div>
                        
       </div>
