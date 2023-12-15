@@ -24,7 +24,7 @@ const About = () => {
               <h3 className="text-[#00EED3] text-2xl">&lt;<span className='text-[#FFFFFF] text-md'> Tell Me About you? </span>&#47;&gt;</h3>
             As a student actively pursuing a Master's in Business Management while holding a degree in aeronautical engineering, I am equipped with a diverse skill set and a keen ability to tackle challenges analytically. Alongside my academic journey, I am delving into web development, specifically focusing on frontend technologies as a new developer. My commitment to continuous learning extends to exploring Microsoft Azure as an additional area of expertise. I bring a fresh perspective, adaptability, and a strong foundation in problem-solving that make me a valuable asset to any team.
             </p>
-           
+            <Link to='/My-Portfolio/projects'><h3 className="text-xl text-[#00EED3] outline py-2 px-7 hover:text-white">My Projects →</h3></Link>
           </div>
         );
 
@@ -65,7 +65,7 @@ const About = () => {
            <div className="">
           {renderContent()}
           </div>
-          <Link to='/My-Portfolio/projects'><h3 className="text-xl text-[#00EED3] outline py-2 px-7 hover:text-white">My Projects →</h3></Link>
+          
         </div>
    </div>
   );
