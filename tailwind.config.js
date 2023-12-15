@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'manga': ['MANGA', 'cursive']
+        'mono': ['Roboto', 'sans-serif']
       }
     },
   },
