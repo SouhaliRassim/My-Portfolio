@@ -12,6 +12,7 @@ import Projects from './Pages/Projects.tsx';
 import Layout from './components/Layout.tsx';
 import Home from './components/Home.tsx';
 import Skills from './Pages/Skills.tsx';
+import Certifications from './Pages/Certifications.tsx';
 
 const router = createBrowserRouter( 
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='/My-Portfolio/about' element={<About />} />
       <Route path='/My-Portfolio/projects' element={<Projects />} />
       <Route path='/My-Portfolio/skills' element={<Skills />} />
+      <Route path='/My-Portfolio/Certs' element={<Certifications />} />
     </Route>
   )
 );
